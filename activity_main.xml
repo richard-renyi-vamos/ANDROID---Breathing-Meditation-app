@@ -1,0 +1,31 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breathing Meditation"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnStartSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Breathing Session"/>
+
+    <Button
+        android:id="@+id/btnViewProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Progress"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout> 
